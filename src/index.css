@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    html{
+        font-family: "DM Sans", sans-serif;
+        
+    }
+}
+
+/* for Navbar */
+@media screen and (max-width: 412px) {
+    .ham-menu{
+           position: relative;
+           right: 20px;
+           margin-top: 5px;
+        
+    }
+  }
+@media screen and (max-width: 398px) {
+    .ham-menu{
+           
+           right: 40px;
+        
+    }
+  }
+@media screen and (max-width: 378px) {
+    .ham-menu{
+           
+           right: 60px;
+        
+    }
+  }
+@media screen and (max-width: 358px) {
+    .ham-menu{
+           
+           right: 80px;
+        
+    }
+  }
+@media screen and (max-width: 338px) {
+    .ham-menu{
+           
+           right: 100px;
+        
+    }
+  }
+@media screen and (max-width: 320px) {
+    .ham-menu{
+           
+           right: 120px;
+        
+    }
+  }
+@media screen and (max-width: 300px) {
+    .ham-menu{
+           
+           right: 130px;
+        
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+ /* for Hero section */
+ @media screen and (max-width: 412px) {
+    .hero-left h1{
+        font-size: 2.5rem;
+        
+    }
+  }
+ @media screen and (max-width: 342px) {
+    .hero-left h1{
+        font-size: 2.2rem;
+        
+    }
+  }
+ @media screen and (max-width: 309px) {
+    .hero-left h1{
+        font-size: 2rem;
+        
+    }
+  }
+
