@@ -3,7 +3,7 @@ import img from '../assets/bulb.png'
 
 const Hero = () => {
   return (
-    <div className='hero-container w-full h-auto bg-blue-200 flex justify-around items-center flex-wrap '>
+    <div className='hero-container w-[100%] h-auto bg-blue-200 flex justify-around items-center flex-wrap '>
 
          <div className="hero-left pt-10">
             <p className='text-lg text-black font-medium pb-4 '>Online supply of essentials</p>

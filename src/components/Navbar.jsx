@@ -29,7 +29,7 @@ const Navbar = () => {
   ]
 
   return (
-    <div className='flex justify-between items-center  w-full h-20 bg-white shadow-xl shadow-gray-200'>
+    <div className='flex justify-between items-center  w-[100%] h-20 bg-white shadow-xl shadow-gray-200'>
           <div  className="logo mx-8  h-auto md:mx-6 cursor-pointer  ">
             <h1 className='w-44 text-xl   text-blue-600 font-bold'>Electric Palace</h1>
           </div>
