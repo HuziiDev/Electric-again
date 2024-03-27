@@ -114,6 +114,36 @@
     font-size: 12px;
    }
   }
+  @media screen and (max-width: 330px) {
+    
+   .secure-payment span{
+    font-size: 8px;
+   }
+   .online-support span{
+    font-size: 8px;
+   }
+   .shipping span{
+    font-size: 8px;
+   }
+   .discount span{
+    font-size: 8px;
+   }
+  }
+  @media screen and (max-width: 305px) {
+    
+   .secure-payment span{
+    font-size: 5px;
+   }
+   .online-support span{
+    font-size: 5px;
+   }
+   .shipping span{
+    font-size: 5px;
+   }
+   .discount span{
+    font-size: 5px;
+   }
+  }
   
   /* ProductDisplay starts */
 
