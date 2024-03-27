@@ -132,16 +132,16 @@
   @media screen and (max-width: 305px) {
     
    .secure-payment span{
-    font-size: 5px;
+    font-size: px;
    }
    .online-support span{
-    font-size: 5px;
+    font-size: px;
    }
    .shipping span{
-    font-size: 5px;
+    font-size: px;
    }
    .discount span{
-    font-size: 5px;
+    font-size: px;
    }
   }
   

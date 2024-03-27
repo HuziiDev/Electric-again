@@ -18,7 +18,7 @@ const ProductDisplay = () => {
 
 
         </div>
-        <div className="right-display flex rounded-2xl bg-green-100 mt-10 mb-10 ">
+        <div className="right-display flex rounded-2xl bg-gray-300 mt-10 mb-10 ">
         <div className="content p-10">
           <p className='text-gray-800'>Starting with ₹100</p>
           <p className='text-gray-800'>Your daily Essentials</p>

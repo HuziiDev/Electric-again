@@ -6,7 +6,7 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Service from './components/Service'
 import ProductDisplay from './components/ProductDisplay'
-
+import NewArrival from './components/NewArrival'
 function App() {
  
 
@@ -16,6 +16,7 @@ function App() {
     <Hero/>
     <Service/>
     <ProductDisplay/>
+    <NewArrival/>
     
     </>
   )
