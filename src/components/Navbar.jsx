@@ -51,7 +51,7 @@ const Navbar = () => {
 
          
           </div>
-          <div onClick={() => setOpen(!open)} className='ham-menu md:hidden mr-8 cursor-pointer z-10'>
+          <div onClick={() => setOpen((prev) => !prev)} className='ham-menu md:hidden mr-8 cursor-pointer z-10'>
           {open ?<FaTimes size={30}/>:<RxHamburgerMenu size={30}/>}
          
          
