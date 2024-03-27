@@ -96,3 +96,90 @@
     }
   }
 
+  /* service starts here */
+  @media screen and (max-width: 520px) {
+    .service-container{
+      width: 95%;
+    }
+   .secure-payment span{
+    font-size: 12px;
+   }
+   .online-support span{
+    font-size: 12px;
+   }
+   .shipping span{
+    font-size: 12px;
+   }
+   .discount span{
+    font-size: 12px;
+   }
+  }
+  
+  /* ProductDisplay starts */
+
+
+  
+  @media screen and (max-width: 465px) {
+  .left-display{
+    flex-direction: column;
+  }
+  .left-display .img{
+    padding: 10px;
+    margin-bottom: 55px;
+    padding-right: 10px;
+    width: 230px;
+  }
+  .right-display{
+    flex-direction: column;
+  }
+  .right-display .img{
+    padding: 10px;
+    margin-bottom: 55px;
+    padding-right: 10px;
+    width: 230px;
+  }
+  }
+  @media screen and (max-width: 365px) {
+        .left-display p{
+          font-size: 13px;
+        }
+        .left-display h1{
+          font-size: 1.5rem;
+        }
+        .left-display .img{
+          height: 80px;
+        }
+        .left-display button{
+          padding: 2px 7px;
+        }
+        .right-display p{
+          font-size: 13px;
+        }
+        .right-display h1{
+          font-size: 1.5rem;
+        }
+        .right-display .img{
+          height: 80px;
+        }
+        .right-display button{
+          padding: 2px 7px;
+        }
+  }
+
+  @media screen and (max-width: 317px) {
+    .left-display p{
+      font-size: 10px;
+    }
+   .left-display h1{
+    font-size: 1.2rem;
+    text-wrap: wrap;
+   }
+   .left-display button{
+    font-size: 12px;
+  }
+  .left-display .img{
+    width: 200px;
+    height: 60px;
+  }
+
+  }
