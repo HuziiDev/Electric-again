@@ -12,6 +12,9 @@
 
 /* for Navbar */
 @media screen and (max-width: 412px) {
+  body{
+    overflow-x: hidden;
+  }
     .ham-menu{
            position: relative;
            right: 20px;
