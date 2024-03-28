@@ -7,6 +7,7 @@ import Navbar from './components/Navbar'
 import Service from './components/Service'
 import ProductDisplay from './components/ProductDisplay'
 import NewArrival from './components/NewArrival'
+import Footer from './components/Footer'
 function App() {
  
 
@@ -17,6 +18,7 @@ function App() {
     <Service/>
     <ProductDisplay/>
     <NewArrival/>
+    <Footer/>
     
     </>
   )
