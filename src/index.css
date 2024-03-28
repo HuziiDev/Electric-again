@@ -213,3 +213,24 @@
   }
 
   }
+
+
+
+  /* NewArrival starts */
+
+
+  @media screen and (max-width: 350px) {
+    .card .content-container p{
+      font-size: 14px;
+    }
+    .card .content-container button{
+      font-size: 12px;
+    }
+    .card .content-container .wishlist-icon{
+     width: 10px;
+    }
+    .new-arrival-heading {
+      font-size: 2rem;
+      text-decoration: underline;
+    }
+  }

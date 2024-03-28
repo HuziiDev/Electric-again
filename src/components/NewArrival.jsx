@@ -7,7 +7,7 @@ const NewArrival = () => {
   return (
     <>
     <NewArrivalHeading/>
-    <div className='Arrival-container w-[90%]  h-auto flex flex-wrap flex-shrink gap-5  mt-10 mx-auto justify-center'>
+    <div className='Arrival-container w-[90%]  h-auto flex flex-wrap flex-shrink gap-5  mt-10 mx-auto justify-evenly'>
                
         <NewArrivalCard/>
         <NewArrivalCard/>
