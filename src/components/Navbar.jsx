@@ -36,7 +36,7 @@ const Navbar = () => {
           <div className="links mr-36 flex flex-wrap  md:mr-10">
             <ul className='hidden   md:flex flex-wrap gap-10 '>
                    {
-                    links.map(({id, link}) => <li key={id} className='text-base font-medium capitalize text-gray-900 hover:text-gray-00 hover:scale-105 duration-200 cursor-pointer'>{link}</li>)
+                    links.map(({id, link}) => <li key={id} className='text-base font-medium capitalize text-gray-900 hover:text-yellow-500 hover:scale-105 duration-200 cursor-pointer'>{link}</li>)
                    }
 
                

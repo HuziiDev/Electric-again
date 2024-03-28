@@ -26,8 +26,8 @@ const Footer = () => {
 
   return (
     <div className='w-[100%] h-auto bg-slate-200 mt-20 '>
-          <div className="footer-container w-[80%] h-auto flex flex-wrap flex-shrink justify-evenly  mx-auto pb-20">
-          <div className="first w-[30%] mt-16 " >
+          <div className="footer-container w-[80%] h-auto flex flex-col md:flex-row flex-wrap flex-shrink justify-evenly  mx-auto pb-20">
+          <div className="first w-[80%] md:w-[30%] mt-16 " >
             <h1 className='text-2xl font-semibold'>Mission</h1>
             <p className='mt-3 text-sm mb-4'>Our mission is to deliver you the best possible product in the market at an affordable price with ease. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos quod voluptatem aperiam incidunt officia laudantium.</p>
             <button className='mr-2'><FaFacebook size={30} color='blue'/></button>
@@ -63,8 +63,8 @@ const Footer = () => {
 
           </div>
 
-          <div className="copyright">
-
+          <div className="copyright flex justify-center pb-10">
+              <h1 className='text-sm text-gray-600 font-semibold'>&copy;Electric Palace All Rights Reserved</h1>
           </div>
 
     </div>
