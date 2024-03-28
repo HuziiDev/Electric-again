@@ -57,7 +57,7 @@ const Navbar = () => {
          
           </div>
           {open &&
-          <div className='absolute w-full h-full top-0  bg-blue-950'>
+          <div className='absolute w-full h-screen top-0  bg-blue-950'>
           
           <ul className='flex flex-col  items-center mt-44 gap-10  '>
                    {
