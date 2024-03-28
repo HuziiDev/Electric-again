@@ -1,9 +1,26 @@
 import React from 'react'
+import { motion } from 'framer-motion';
 
 import { FaRegHeart } from "react-icons/fa";
 const NewArrivalCard = ({price, title, img}) => {
+  const variants={
+    initial:{
+      opacity:0,
+      y:50
+    },
+    animate:{
+      opacity:1,
+      y:0
+    }
+  }
   return (
-    <div  className="card ">
+    <motion.div  className="card "
+    variants={variants}
+    initial="initial"
+    whileInView="animate"
+    viewport={{once:true}}
+    transition={{ease:"easeInOut", duration:2}}
+    >
          <div  className="img-container bg-blue-100 rounded-md ">
           <img className='w-[60%] mx-auto h-52 object-contain' src={img} alt="" />
          </div>
@@ -16,7 +33,7 @@ const NewArrivalCard = ({price, title, img}) => {
          <button className=' '>Add to wishlist</button>
          </div>
 
-        </div>
+        </motion.div>
   )
 }
 
